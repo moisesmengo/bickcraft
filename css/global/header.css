@@ -19,17 +19,14 @@
 .header-menu a {
   padding: 16px 0;
   display: inline-block;
-  font-size: 18px;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .header-menu a::after {
   content: "";
   display: block;
   height: 2px;
   width: 0;
-  background:  var(--cor-0);
+  background: var(--cor-0);
   transition: 0.4s;
   margin-top: 4px;
   position: absolute;
@@ -57,7 +54,7 @@
 }
 @media (max-width: 600px) {
   .header-menu {
-    gap: 12pxpx;
+    gap: 12px;
   }
   .header-menu a,
   .introducao a {
